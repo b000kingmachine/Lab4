@@ -3,13 +3,14 @@ using namespace std;
 int main()
 {
      setlocale(0, "");
-    cout << "введите размер массива: ";
+     cout << "Вы открыли бессмысленную пргограмму... " << endl;;
+     cout << "-----------------------------------------" << endl;
+     cout << "Размер массива? ";
     int n, sum = 0;
     cin >> n;
     int * a = new int [n] ;
-    cout << "введите элементы массива:" << endl;
-    for (int i = 0; i < n; i++) {
-        cout << i + 1 << " сам элемент: ";
+    cout << "Из чего состоит?" << endl;
+    for (int i = 0; i < n; i++) { 
         cin >> a[i];
     }
     for (int i = 0; i < n; i++) {
@@ -21,7 +22,7 @@ int main()
             sum += a[i];
         }
     }
-    cout << "сумма элементов которые кратные 3 = " << sum << endl;
-    delete[] a;
+    cout << " Сумма кратных 3-м:  " << sum << endl;
+   
     return 0;
 }

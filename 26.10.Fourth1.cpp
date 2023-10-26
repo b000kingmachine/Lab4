@@ -6,7 +6,7 @@ int main()
 {
     setlocale(LC_ALL, "RU");
     int min_count = 100, max_count = -100;
-    int const N = 6;
+    int const N = 50;
     int x[N] = { 4, 1, 3, 9, 4, 6 };
     for (int i = 0; i < N; i++) {
         cout << x[i];

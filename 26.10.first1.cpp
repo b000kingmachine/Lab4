@@ -6,8 +6,8 @@ int main()
 {
     setlocale(0, "");
     int count = 9999, count_num = 0;
-    int const SIZE = 6;
-    int arr[SIZE] = { 2, 2, 3, 4, 5, 6 };
+    int const SIZE = 393;
+    int arr[SIZE] = { 212, 142, 65, 12, 7, 333 };
     for (int i = 0; i < SIZE; i++) {
         cout << arr[i];
     }
